@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+.container {
+    width: auto;
+    padding: 16px 0px;
+}
+
+.container ul a {
+    background-color: orange;
+    color: black;
+    padding: 4px;
+    border: 2px solid orange;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.container ul a:hover {
+    text-decoration: underline;
+} 
+
+.container {
+    background-color: darkblue;
+}
+
+#title {
+    display: flex;
+}
+
+#title h1 {
+    font-size: 40px;
+    height: 50px;
+    width: 530px;
+    padding: 4px 2px 5px 25px;
+    box-sizing: border-box;
+    margin: 0 0 0 200px;
+    color: white;
+}
+
+#title li {
+    display: inline;
+    padding: 0px 0px 0px 50px;
+}
+
+#title ul {
+    margin-top: 17px;
+}
+
+section h2,
+.articles article {  
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+section h2 {
+    font-size: 30px;
+    width: fit-content;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles header {
+    margin-top: 8px;
+}
+
+.articles article img {
+    height: 270px;
+    width: 60%;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*
+.articles article img {
+    filter: contrast(0%);
+    filter: saturate(0%);
+}
+
+.articles article img:hover {
+    filter: none;
+}
+
+------Preto e branco - hover colorido-------
+
+*/
+
+.articles article {
+    width: 30%;
+}
+
+.container-sports {
+    background-color: #a7c7bc;
+    border: 4px solid rgb(243, 46, 46)
+}
+
+.container-sports h2 {
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container-sports .articles article img {
+    border: 4px solid orange;
+    border-radius: 10px;
+}
+
+.container-sports .articles article a {
+    font-weight: 550;
+    background-color: black;
+    color: #fff;
+    padding: 2px;
+    border: 6px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container-sports .articles article a:hover {
+    text-decoration: underline;
+}
+
+.container-economy {
+    background-color: rgb(138, 75, 75);
+    border: 4px solid rgb(130, 20, 80);
+}
+
+.container-economy h2 {
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.container-economy .articles article img {
+    border: 4px solid rgb(48, 0, 48);
+    border-radius: 10px;
+}
+
+.container-economy .articles article h3,
+.container-economy .articles article p,
+.container-economy .articles article header {
+    color: rgb(230, 230, 230);
+}
+
+.container-economy .articles article a {
+    font-weight: 550;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border: 6px solid white;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container-economy .articles article a:hover {
+    text-decoration: underline;
+}
+
+.container-videogames {
+    background-color: rgb(205, 255, 238);
+    border: 4px solid rgb(180, 180, 0);
+}
+
+.container-videogames h2 {
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container-videogames .articles article img {
+    border: 4px solid rgb(12, 100, 0);
+    border-radius: 10px;
+}
+
+.container-videogames .articles article a {
+    font-weight: 550;
+    background-color: black;
+    color: #fff;
+    padding: 2px;
+    border: 6px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container-videogames .articles article a:hover {
+    text-decoration: underline;
+}
+
+.container-entertainment {
+    border: 4px solid rgb(255, 243, 75);
+    background-color: #435a4a;
+}
+
+.container-entertainment h2 {
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.container-entertainment .articles article img {
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.container-entertainment .articles article h3,
+.container-entertainment .articles article p,
+.container-entertainment .articles article header {
+    color: rgb(230, 230, 230);
+}
+
+.container-entertainment .articles article a {
+    font-weight: 550;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border: 6px solid white;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container-entertainment .articles article a:hover {
+    text-decoration: underline;
+}
