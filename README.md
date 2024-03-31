@@ -18,4 +18,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Criação de uma nova branch chamada exercicio_HTML
   - Adição do arquivo Formulário.html na branch exercicio_HTML
   - Adição do código do Formulário.html
-  
+## [0.0.3] - 2024-03-31
+  - Criação de uma nova branch chamada exercicio_css
