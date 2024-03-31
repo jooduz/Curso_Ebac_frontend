@@ -20,3 +20,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Adição do código do Formulário.html
 ## [0.0.3] - 2024-03-31
   - Criação de uma nova branch chamada exercicio_css
+  - Remoção dos arquivos Readme.md e teste.txt da nova branch
+  - Inserção dos arquivos index.html e main.css e a pasta com imagens na nova branch
